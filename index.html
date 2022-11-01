@@ -1,0 +1,50 @@
+<html lang="ko">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript">
+            document.oncontextmenu = function(){return false;}
+        </script>
+    
+
+    </head>
+
+
+    <body>
+        <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+                <section >
+                <h2>
+                밤새 도로를 누비던 차들의 불빛도 사라지고 노래를 부르던 새들의 소리도 그친 지 오랬고
+                소리 없이 내린 강한 서리로 하얀 서리들이 나무와 풀들에 내려앉았다.
+                
+                북한과 중국 사이에 있는 두만강 연선 도로로 달리는 택시 안에는 나와 그리고
+                함께 탈북한 한 아주머니가 타고 있었다.
+                나는 믿을 수 없었다. 두만강을 무사히 건넜다니…
+                
+                잘 믿어지지 않아 줄곧 빠른 속도로 달리는 택시의 창밖을 내다보며
+                나는 나 자신에게 몇 번이곤 물어 보았다.
+                초 겨울이라 살얼음 진 두만강의 거센 물살에 휘말려 떠내려갈 뻔했던 10분 전의 일,
+                그리고 숨 한 번 거칠게 쉬었다가 총에 맞아 죽는 것은 눈 깜짝할 순간에 일어나기 때문이었다.
+                정신을 바짝 차리고 일행과 함께 사생결단으로 강을 넘어서는데 성공했다.
+                하지만.. 무사히 강을 건넜다는 생각에 한고비는 넘겼지만
+                지금부터 또 <a href="file:///Users/yeohokim/Desktop/spot%203/index.html"><blink>어떻게 살아남을까..</blink></a>
+                </h2>
+                
+                <audio autoplay>
+                    <source src="audio/audio1.mp3" type="audio/mp3">
+                </audio>
+                
+                </section>
+
+
+        <div class="light"></div>
+        <script type="text/javascript">
+            var pos = document.documentElement;
+            pos.addEventListener('mousemove', e =>{
+                pos.style.setProperty('--x', e.clientX + 'px')
+                pos.style.setProperty('--y', e.clientY + 'px')
+            })
+            var audio = document.getElementById('myAudio');
+            audio.volume = 0.3;
+        </script>
+    </body>
+</html>
